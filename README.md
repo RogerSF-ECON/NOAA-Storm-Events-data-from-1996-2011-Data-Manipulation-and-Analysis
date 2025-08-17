@@ -33,17 +33,6 @@ Drought is crop-heavy (~$13.4B crop vs. ~$1.0B property).
 
 (Results are shown in two figures and top-10 tables in the report.)
 
-📂 Repository Structure
-.
-├─ storm_analysis.Rmd        # Main analysis (R Markdown) – knit to HTML/PDF
-├─ repdata_data_StormData.csv.bz2  # Raw data (ignored if auto-downloaded)
-├─ output/
-│  ├─ figures/               # Saved figures (optional)
-│  └─ tables/                # Saved tables (optional)
-├─ run.R                     # One-click render script (optional)
-├─ README.md                 # This file
-└─ LICENSE                   # Choose a license
-
 
 If you prefer not to commit the large CSV, the Rmd will auto-download it.
 
