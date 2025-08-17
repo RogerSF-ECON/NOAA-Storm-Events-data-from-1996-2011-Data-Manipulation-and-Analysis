@@ -18,7 +18,7 @@ Hurricane (Typhoon) (\$87.1B) and Storm Surge/Tide (\$47.8B)). We
 present two figures (≤3 allowed) and top-10 tables to support these
 conclusions.
 
-# Data Processing (what we did and why)
+# Data Processing 
 
 **Load & clean column names.** We read the compressed CSV directly and
 applied `janitor::clean_names()` to obtain consistent, snake_case names.
@@ -633,3 +633,4 @@ influence totals.
 All steps are performed inside the document from the raw compressed CSV;
 code chunks use `echo=TRUE` and `cache=TRUE`. The final chunk shows
 `sessionInfo()` for package versions.
+
